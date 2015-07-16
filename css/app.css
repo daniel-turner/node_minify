@@ -1,0 +1,57 @@
+#chatroom {
+
+  display: inline-block;
+}
+
+#chatContainer {
+
+  display: inline-block;
+}
+
+.mention {
+
+  color: red;
+}
+
+#connectedUsersContainer {
+
+  display: inline-block;
+}
+#chatlog p b{
+  margin-right:6px;
+
+}
+
+.error {
+  color: red;
+}
+
+#chatlog {
+  width: 450px;
+  height: 300px;
+  overflow: auto;
+  border: 1px solid black;
+  font-size: 12px;
+  padding: 3px;
+}
+
+#connectedUsersContainer {
+  width: 100px;
+  height:300px;
+  overflow: auto;
+  border: 1px solid black;
+  font-size: 12px;
+}
+
+#userList {
+
+  text-align: left;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#userList li {
+
+  text-align: left;
+}
